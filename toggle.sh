@@ -19,5 +19,5 @@ else
 	fi
 fi
 
-git commit -m "toggle that radio"
+git commit -am "toggle that radio"
 git push origin master
