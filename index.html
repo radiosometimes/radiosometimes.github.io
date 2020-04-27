@@ -1,20 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<style>
-		body {
-			text-align: center;
-		}
-	</style>
-</head>
-<body>
+  <head>
+    <style>
+      body {
+    	  text-align: center;
+      }
+      table.center {
+	  margin-left:auto; 
+	  margin-right:auto;
+      }
+      td.day {
+	  background-color: #fffd38;	
+      }
+      td.evening {
+	  background-color: #fd9927;
+      }
+      td.late {
+	  color: #fff;
+	  background-color: #9826fb;
+      }
+    </style>
+  </head>
+  <body>
     <img id="banner" src="imgs/banner.png" alt="Radio Sometimes"/>
-	<h1 id="off">There's no radio. Come back some other time.</h1>
-	<!--<div id="on">
-		<h1>There's radio. Listen!</h1>
-		<audio controls>
-			<source src="http://45.55.199.85:8000/occasional" type="audio/mpeg">
-		</audio>
-	</div>-->
-</body>
+    <h1 id="off">There's no radio. Come back some other time.</h1>
+    <!--<div id="on">
+	<h1>There's radio. Listen!</h1>
+	<audio controls>
+	  <source src="http://45.55.199.85:8000/occasional" type="audio/mpeg">
+	</audio>
+    </div>-->
+
+    <table class="center">
+      <tr>
+	<th></th>
+	<th>Sun</th>
+	<th>Mon</th>
+	<th>Tue</th>
+	<th>Wed</th>
+	<th>Thur</th>
+	<th>Fri</th>
+	<th>Sat</th>
+      </tr>
+      <tr>
+	<td class="day">Daytime </td>
+	<td class="day">Love & Friendship</td>
+      </tr>
+      <tr>
+	<td></td>
+	<td class="day">1-2PM NYC</td>
+      </tr>
+      <tr>
+	<td class="evening">Evening</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td class="evening">TAKES</td>
+      </tr>
+      <tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td class="evening">8-10PM NYC</td>
+      </tr>
+      <tr>
+	<td class="late">Late Night</td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td class="late">BATESBEATZZZ</td>
+      </tr>
+      <tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td class="late">10PM+ NYC</td>
+      </tr>
+    </table>
+  </body>
 </html>
